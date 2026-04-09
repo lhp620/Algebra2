@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -h \"id: '\" D:/AI/Gemini/Algrebra2/data/lessons/unit*.js)",
+      "Bash(grep -n \"\\\\\\\\\\\\\\\\[a-zA-Z]\" \"D:\\\\AI\\\\Gemini\\\\Algrebra2\\\\data\\\\lessons\\\\unit1.js\")",
+      "Bash(grep -v \"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\")",
+      "Bash(grep -n \"\\\\\\\\\\\\\\\\implies\\\\|\\\\\\\\\\\\\\\\dfrac\\\\|\\\\\\\\\\\\\\\\frac\\\\|\\\\\\\\\\\\\\\\sqrt\\\\|\\\\\\\\\\\\\\\\cdot\\\\|\\\\\\\\\\\\\\\\pm\\\\|\\\\\\\\\\\\\\\\le\\\\|\\\\\\\\\\\\\\\\ge\\\\|\\\\\\\\\\\\\\\\infty\\\\|\\\\\\\\\\\\\\\\times\\\\|\\\\\\\\\\\\\\\\div\" \"D:\\\\AI\\\\Gemini\\\\Algrebra2\\\\data\\\\lessons\\\\unit1.js\")",
+      "Bash(python3:*)",
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "Bash(gh auth:*)"
+    ]
+  }
+}
