@@ -16,8 +16,14 @@ export const lessons = [
           <li>Cancel common factors (not terms!).</li>
           <li>State any excluded values.</li>
         </ol>
-        <div class="warning-box">Canceled factors create <strong>holes</strong> (removable discontinuities) in the graph — the expression is undefined at those x-values even after simplifying.</div>
-        <div class="tip-box">Always factor before canceling. $\\dfrac{x+2}{x^2-4} = \\dfrac{x+2}{(x-2)(x+2)} = \\dfrac{1}{x-2}$ with a hole at $x = -2$.</div>
+        <div class="warning-box">
+          <span class="warning-icon">⚠️</span>
+          <p>Canceled factors create <strong>holes</strong> (removable discontinuities) in the graph — the expression is undefined at those x-values even after simplifying.</p>
+        </div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>Always factor before canceling. $\\dfrac{x+2}{x^2-4} = \\dfrac{x+2}{(x-2)(x+2)} = \\dfrac{1}{x-2}$ with a hole at $x = -2$.</p>
+        </div>
       </div>`,
     examples: [
       {
@@ -54,7 +60,10 @@ export const lessons = [
         <h3>Multiplying Rational Expressions</h3>
         <p>Multiply numerators and multiply denominators, then simplify.</p>
         <div class="formula-box">$$\\frac{a}{b} \\cdot \\frac{c}{d} = \\frac{ac}{bd}$$</div>
-        <div class="tip-box">Factor everything <em>before</em> multiplying — cross-cancel common factors to keep numbers small.</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>Factor everything <em>before</em> multiplying — cross-cancel common factors to keep numbers small.</p>
+        </div>
       </div>
       <div class="concept-card">
         <h3>Dividing Rational Expressions</h3>
@@ -102,7 +111,10 @@ export const lessons = [
           <li>Combine numerators; keep the LCD.</li>
           <li>Simplify the result.</li>
         </ol>
-        <div class="warning-box">When subtracting, distribute the negative sign to <em>every</em> term in the second numerator.</div>
+        <div class="warning-box">
+          <span class="warning-icon">⚠️</span>
+          <p>When subtracting, distribute the negative sign to <em>every</em> term in the second numerator.</p>
+        </div>
       </div>`,
     examples: [
       {
@@ -139,7 +151,10 @@ export const lessons = [
       <div class="concept-card">
         <h3>Solving Rational Equations</h3>
         <p>Multiply both sides by the LCD to <strong>clear all denominators</strong>, then solve the resulting polynomial equation.</p>
-        <div class="warning-box"><strong>Always check for extraneous solutions!</strong> Any solution that makes a denominator zero in the original equation must be rejected.</div>
+        <div class="warning-box">
+          <span class="warning-icon">⚠️</span>
+          <p><strong>Always check for extraneous solutions!</strong> Any solution that makes a denominator zero in the original equation must be rejected.</p>
+        </div>
       </div>
       <div class="concept-card">
         <h3>Cross-Multiplication (Special Case)</h3>

@@ -64,7 +64,10 @@ export const lessons = [
           <li>QIII: <strong>T</strong>angent positive</li>
           <li>QIV: <strong>C</strong>osine positive</li>
         </ul>
-        <div class="tip-box">Key unit circle values to memorize: at $0, \\pi/6, \\pi/4, \\pi/3, \\pi/2$ — and their reflections into other quadrants.</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>Key unit circle values to memorize: at $0, \\pi/6, \\pi/4, \\pi/3, \\pi/2$ — and their reflections into other quadrants.</p>
+        </div>
       </div>`,
     examples: [
       {
@@ -103,7 +106,10 @@ export const lessons = [
         <div class="formula-box">
           $$\\sin\\theta = \\frac{\\text{opposite}}{\\text{hypotenuse}} \\qquad \\cos\\theta = \\frac{\\text{adjacent}}{\\text{hypotenuse}} \\qquad \\tan\\theta = \\frac{\\text{opposite}}{\\text{adjacent}}$$
         </div>
-        <div class="tip-box"><strong>SOH-CAH-TOA</strong>: Sine = Opposite/Hypotenuse, Cosine = Adjacent/Hypotenuse, Tangent = Opposite/Adjacent.</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p><strong>SOH-CAH-TOA</strong>: Sine = Opposite/Hypotenuse, Cosine = Adjacent/Hypotenuse, Tangent = Opposite/Adjacent.</p>
+        </div>
         <p>The reciprocal functions:</p>
         <div class="formula-box">
           $$\\csc\\theta = \\frac{1}{\\sin\\theta} \\qquad \\sec\\theta = \\frac{1}{\\cos\\theta} \\qquad \\cot\\theta = \\frac{1}{\\tan\\theta}$$
@@ -116,7 +122,10 @@ export const lessons = [
           <li><strong>30-60-90</strong>: sides $1 : \\sqrt{3} : 2$ → $\\sin 30° = 1/2$, $\\cos 30° = \\sqrt{3}/2$, $\\tan 30° = 1/\\sqrt{3}$</li>
           <li><strong>45-45-90</strong>: sides $1 : 1 : \\sqrt{2}$ → $\\sin 45° = \\cos 45° = \\sqrt{2}/2$, $\\tan 45° = 1$</li>
         </ul>
-        <div class="tip-box">These exact values appear constantly in trig — memorize them!</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>These exact values appear constantly in trig — memorize them!</p>
+        </div>
       </div>`,
     examples: [
       {
@@ -165,7 +174,10 @@ export const lessons = [
           <li>$\\cos(0) = 1$ — cosine starts at its maximum</li>
           <li>$\\cos x = \\sin(x + \\pi/2)$ — cosine is sine shifted left by $\\pi/2$</li>
         </ul>
-        <div class="tip-box">To sketch: plot the midline ($y = D$), mark amplitude above and below, then place key points at quarter-period intervals.</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>To sketch: plot the midline ($y = D$), mark amplitude above and below, then place key points at quarter-period intervals.</p>
+        </div>
       </div>`,
     examples: [
       {
@@ -218,7 +230,10 @@ export const lessons = [
           <li>$y = \\sec x = 1/\\cos x$: period $2\\pi$, VAs where $\\cos x = 0$; graph hugs $y = \\cos x$</li>
           <li>$y = \\csc x = 1/\\sin x$: period $2\\pi$, VAs where $\\sin x = 0$; graph hugs $y = \\sin x$</li>
         </ul>
-        <div class="tip-box">To graph $\\sec x$ or $\\csc x$: first sketch the reciprocal ($\\cos x$ or $\\sin x$), draw asymptotes at its zeros, then draw U-shapes opening away from the midline.</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>To graph $\\sec x$ or $\\csc x$: first sketch the reciprocal ($\\cos x$ or $\\sin x$), draw asymptotes at its zeros, then draw U-shapes opening away from the midline.</p>
+        </div>
       </div>`,
     examples: [
       {
@@ -267,7 +282,10 @@ export const lessons = [
         <div class="formula-box">$$\\tan^2\\theta + 1 = \\sec^2\\theta$$</div>
         <p>Dividing by $\\sin^2\\theta$:</p>
         <div class="formula-box">$$1 + \\cot^2\\theta = \\csc^2\\theta$$</div>
-        <div class="tip-box">When simplifying, look for opportunities to substitute using these identities — especially when you see $1 - \\sin^2\\theta$ (= $\\cos^2\\theta$) or $1 - \\cos^2\\theta$ (= $\\sin^2\\theta$).</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>When simplifying, look for opportunities to substitute using these identities — especially when you see $1 - \\sin^2\\theta$ (= $\\cos^2\\theta$) or $1 - \\cos^2\\theta$ (= $\\sin^2\\theta$).</p>
+        </div>
       </div>`,
     examples: [
       {
@@ -316,7 +334,10 @@ export const lessons = [
           <li>$\\sin$ and $\\cos$: period $2\\pi$ → add $2\\pi n$</li>
           <li>$\\tan$: period $\\pi$ → add $\\pi n$</li>
         </ul>
-        <div class="tip-box">When asked for solutions on $[0, 2\\pi)$, list only the angles in that interval. For the general solution, append $+ 2\\pi n$ (or $+ \\pi n$ for tangent).</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>When asked for solutions on $[0, 2\\pi)$, list only the angles in that interval. For the general solution, append $+ 2\\pi n$ (or $+ \\pi n$ for tangent).</p>
+        </div>
       </div>`,
     examples: [
       {

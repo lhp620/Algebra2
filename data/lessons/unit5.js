@@ -15,7 +15,10 @@ export const lessons = [
         <h3>Powers of $i$ — The Cycle of Four</h3>
         <p>Powers of $i$ repeat every 4 steps:</p>
         <div class="formula-box">$$i^1 = i,\\quad i^2 = -1,\\quad i^3 = -i,\\quad i^4 = 1,\\quad i^5 = i,\\ldots$$</div>
-        <div class="tip-box">To find $i^n$, divide $n$ by 4 and use the remainder: remainder 0 → 1, remainder 1 → $i$, remainder 2 → $-1$, remainder 3 → $-i$.</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>To find $i^n$, divide $n$ by 4 and use the remainder: remainder 0 → 1, remainder 1 → $i$, remainder 2 → $-1$, remainder 3 → $-i$.</p>
+        </div>
       </div>
       <div class="concept-card">
         <h3>Complex Numbers</h3>
@@ -74,7 +77,10 @@ export const lessons = [
         <h3>Multiplying Complex Numbers</h3>
         <p>Use FOIL, then substitute $i^2 = -1$.</p>
         <div class="formula-box">$$(a+bi)(c+di) = ac + adi + bci + bdi^2 = (ac - bd) + (ad + bc)i$$</div>
-        <div class="tip-box">Always replace $i^2$ with $-1$ at the end and collect real and imaginary parts.</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>Always replace $i^2$ with $-1$ at the end and collect real and imaginary parts.</p>
+        </div>
       </div>`,
     examples: [
       {
@@ -127,7 +133,10 @@ export const lessons = [
         <h3>Dividing Complex Numbers</h3>
         <p>To divide, multiply numerator and denominator by the conjugate of the denominator.</p>
         <div class="formula-box">$$\\frac{a+bi}{c+di} = \\frac{(a+bi)(c-di)}{(c+di)(c-di)} = \\frac{(a+bi)(c-di)}{c^2+d^2}$$</div>
-        <div class="tip-box">This process is called <strong>rationalizing</strong> the denominator — same idea as removing radicals from a denominator.</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>This process is called <strong>rationalizing</strong> the denominator — same idea as removing radicals from a denominator.</p>
+        </div>
       </div>`,
     examples: [
       {
@@ -165,7 +174,10 @@ export const lessons = [
         <h3>Complex Solutions to Quadratics</h3>
         <p>When the discriminant $\\Delta = b^2 - 4ac < 0$, the quadratic has <strong>two complex conjugate roots</strong>.</p>
         <div class="formula-box">$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} = \\frac{-b \\pm i\\sqrt{|\\Delta|}}{2a}$$</div>
-        <div class="tip-box">Complex roots always come in conjugate pairs: if $p + qi$ is a root, so is $p - qi$.</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>Complex roots always come in conjugate pairs: if $p + qi$ is a root, so is $p - qi$.</p>
+        </div>
       </div>
       <div class="concept-card">
         <h3>Writing a Quadratic from Its Complex Roots</h3>
@@ -176,7 +188,10 @@ export const lessons = [
       <div class="concept-card">
         <h3>Fundamental Theorem Connection</h3>
         <p>A degree-$n$ polynomial has exactly $n$ roots (counting multiplicity) over the complex numbers. A cubic with one real root must have two complex conjugate roots; a quartic may have 0, 2, or 4 complex roots.</p>
-        <div class="warning-box">Complex roots of polynomials with <em>real</em> coefficients always appear in conjugate pairs.</div>
+        <div class="warning-box">
+          <span class="warning-icon">⚠️</span>
+          <p>Complex roots of polynomials with <em>real</em> coefficients always appear in conjugate pairs.</p>
+        </div>
       </div>`,
     examples: [
       {

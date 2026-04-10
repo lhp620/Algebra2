@@ -28,14 +28,14 @@ function stripModule(src) {
 }
 
 // ─── KaTeX — inline JS; patch CSS to use CDN font URLs ────────────────────
-const KATEX_VER    = '0.16.9';
+const KATEX_VER    = '0.16.45';
 const KATEX_DIST   = path.join(ROOT, 'node_modules', 'katex', 'dist');
 const KATEX_CDN    = `https://cdn.jsdelivr.net/npm/katex@${KATEX_VER}/dist`;
 
 const katexCSS = read('node_modules', 'katex', 'dist', 'katex.min.css')
   // Rewrite relative font paths → CDN absolute URLs so fonts load when online
-  .replace(/url\(\.\.\/fonts\//g, `url(${KATEX_CDN}/fonts/`)
-  .replace(/url\("\.\.\/fonts\//g, `url("${KATEX_CDN}/fonts/`);
+  .replace(/url\((?:\.\.\/)?fonts\//g, `url(${KATEX_CDN}/fonts/`)
+  .replace(/url\("(?:\.\.\/)?fonts\//g, `url("${KATEX_CDN}/fonts/`);
 
 const katexJS   = read('node_modules', 'katex', 'dist', 'katex.min.js');
 const autoRender = read('node_modules', 'katex', 'dist', 'contrib', 'auto-render.min.js');

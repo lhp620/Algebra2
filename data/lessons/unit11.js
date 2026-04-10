@@ -13,7 +13,10 @@ export const lessons = [
       <div class="concept-card">
         <h3>General Form → Standard Form</h3>
         <p>Complete the square in both $x$ and $y$ to convert $x^2 + y^2 + Dx + Ey + F = 0$ to standard form.</p>
-        <div class="tip-box">Remember: $(x + a)^2 = x^2 + 2ax + a^2$ — add $(a)^2$ to both sides when completing the square.</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>Remember: $(x + a)^2 = x^2 + 2ax + a^2$ — add $(a)^2$ to both sides when completing the square.</p>
+        </div>
       </div>`,
     examples: [
       {
@@ -56,7 +59,10 @@ export const lessons = [
           <li>If $b^2 > a^2$: major axis is vertical</li>
           <li>$c^2 = |a^2 - b^2|$, where $c$ = distance from center to each focus</li>
         </ul>
-        <div class="tip-box">A circle is a special ellipse where $a = b = r$.</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>A circle is a special ellipse where $a = b = r$.</p>
+        </div>
       </div>`,
     examples: [
       {
@@ -98,7 +104,10 @@ export const lessons = [
           <li>$c^2 = a^2 + b^2$ (note: <em>sum</em>, unlike ellipses)</li>
           <li>Asymptotes: $y - k = \\pm \\dfrac{b}{a}(x - h)$ (for horizontal hyperbola)</li>
         </ul>
-        <div class="warning-box">In a hyperbola, $c^2 = a^2 + b^2$. In an ellipse, $c^2 = a^2 - b^2$. Don't mix them up!</div>
+        <div class="warning-box">
+          <span class="warning-icon">⚠️</span>
+          <p>In a hyperbola, $c^2 = a^2 + b^2$. In an ellipse, $c^2 = a^2 - b^2$. Don't mix them up!</p>
+        </div>
       </div>`,
     examples: [
       {
@@ -143,7 +152,10 @@ export const lessons = [
           <li>Directrix: distance $|p|$ on the opposite side</li>
           <li>$p > 0$: opens up/right; $p < 0$: opens down/left</li>
         </ul>
-        <div class="tip-box">The <strong>latus rectum</strong> (chord through focus perpendicular to axis) has length $|4p|$.</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>The <strong>latus rectum</strong> (chord through focus perpendicular to axis) has length $|4p|$.</p>
+        </div>
       </div>`,
     examples: [
       {
@@ -191,7 +203,10 @@ export const lessons = [
         <h3>Combinations</h3>
         <p>A <strong>combination</strong> is a selection of items where order does <em>not</em> matter.</p>
         <div class="formula-box">$$C(n, r) = \\binom{n}{r} = \\frac{n!}{r!(n-r)!}$$</div>
-        <div class="tip-box">Use <strong>P</strong>ermutation when order matters (<strong>P</strong>assword, <strong>P</strong>odium finish). Use <strong>C</strong>ombination when order doesn't (<strong>C</strong>ommittee, <strong>C</strong>hoosing toppings).</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>Use <strong>P</strong>ermutation when order matters (<strong>P</strong>assword, <strong>P</strong>odium finish). Use <strong>C</strong>ombination when order doesn't (<strong>C</strong>ommittee, <strong>C</strong>hoosing toppings).</p>
+        </div>
       </div>`,
     examples: [
       {
@@ -237,7 +252,10 @@ export const lessons = [
         <h3>Multiplication Rule & Independence</h3>
         <div class="formula-box">$$P(A \\cap B) = P(A) \\cdot P(B|A)$$</div>
         <p>If $A$ and $B$ are <strong>independent</strong>: $P(B|A) = P(B)$, so $P(A \\cap B) = P(A) \\cdot P(B)$.</p>
-        <div class="tip-box"><strong>Conditional probability</strong>: $P(B|A) = \\dfrac{P(A \\cap B)}{P(A)}$ — probability of $B$ given that $A$ has occurred.</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p><strong>Conditional probability</strong>: $P(B|A) = \\dfrac{P(A \\cap B)}{P(A)}$ — probability of $B$ given that $A$ has occurred.</p>
+        </div>
       </div>`,
     examples: [
       {
@@ -279,7 +297,10 @@ export const lessons = [
           <li>$\\approx 95\\%$ of data falls within $2\\sigma$ of the mean</li>
           <li>$\\approx 99.7\\%$ of data falls within $3\\sigma$ of the mean</li>
         </ul>
-        <div class="tip-box"><strong>Empirical Rule (68-95-99.7 Rule)</strong>: memorize these three percentages for problems about normal distributions.</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p><strong>Empirical Rule (68-95-99.7 Rule)</strong>: memorize these three percentages for problems about normal distributions.</p>
+        </div>
       </div>
       <div class="concept-card">
         <h3>Z-Scores</h3>

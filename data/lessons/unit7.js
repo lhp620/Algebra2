@@ -71,7 +71,10 @@ export const lessons = [
           <li>$t$ = time</li>
           <li>$A$ = amount after time $t$</li>
         </ul>
-        <div class="tip-box">Compare to periodic compound interest: $A = P\\left(1+\\frac{r}{n}\\right)^{nt}$. As $n \\to \\infty$, this approaches $Pe^{rt}$.</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>Compare to periodic compound interest: $A = P\\left(1+\\frac{r}{n}\\right)^{nt}$. As $n \\to \\infty$, this approaches $Pe^{rt}$.</p>
+        </div>
       </div>`,
     examples: [
       {
@@ -117,7 +120,10 @@ export const lessons = [
           <li>$\\log_{10} 1000 = 3$ because $10^3 = 1000$</li>
           <li>$\\ln 1 = 0$ because $e^0 = 1$</li>
         </ul>
-        <div class="tip-box">$\\log_b b = 1$ and $\\log_b 1 = 0$ always.</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>$\\log_b b = 1$ and $\\log_b 1 = 0$ always.</p>
+        </div>
       </div>
       <div class="concept-card">
         <h3>Graph of $y = \\log_b x$</h3>
@@ -157,7 +163,10 @@ export const lessons = [
           $$\\log_b\\!\\left(\\frac{m}{n}\\right) = \\log_b m - \\log_b n \\quad \\text{(Quotient Rule)}$$
           $$\\log_b(m^p) = p\\log_b m \\quad \\text{(Power Rule)}$$
         </div>
-        <div class="tip-box">These properties come directly from exponent rules: $b^m \\cdot b^n = b^{m+n}$, etc.</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>These properties come directly from exponent rules: $b^m \\cdot b^n = b^{m+n}$, etc.</p>
+        </div>
       </div>
       <div class="concept-card">
         <h3>Change of Base Formula</h3>
@@ -204,7 +213,10 @@ export const lessons = [
       <div class="concept-card">
         <h3>Solving Logarithmic Equations</h3>
         <p>Condense logarithms to a single log, then convert to exponential form.</p>
-        <div class="warning-box">Always check that arguments of logarithms are positive in the original equation — extraneous solutions can appear!</div>
+        <div class="warning-box">
+          <span class="warning-icon">⚠️</span>
+          <p>Always check that arguments of logarithms are positive in the original equation — extraneous solutions can appear!</p>
+        </div>
       </div>`,
     examples: [
       {
@@ -251,12 +263,18 @@ export const lessons = [
         <div class="formula-box">$$\\log_b(x) = c \\implies x = b^c$$</div>
         <p><strong>Strategy 2 — Multiple Logs:</strong> Use log properties to condense to one log on each side, then drop the logs.</p>
         <div class="formula-box">$$\\log_b(f(x)) = \\log_b(g(x)) \\implies f(x) = g(x)$$</div>
-        <div class="warning-box">Always check solutions! Substituting back may reveal <strong>extraneous solutions</strong> where an argument of a log becomes negative or zero.</div>
+        <div class="warning-box">
+          <span class="warning-icon">⚠️</span>
+          <p>Always check solutions! Substituting back may reveal <strong>extraneous solutions</strong> where an argument of a log becomes negative or zero.</p>
+        </div>
       </div>
       <div class="concept-card">
         <h3>Solving Equations with Both Types</h3>
         <p>Some equations mix exponentials and logarithms. Use the relationship $b^{\\log_b x} = x$ and $\\log_b(b^x) = x$ to simplify.</p>
-        <div class="tip-box">$e^{\\ln x} = x$ and $\\ln(e^x) = x$ — these inverse relationships are frequently useful.</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>$e^{\\ln x} = x$ and $\\ln(e^x) = x$ — these inverse relationships are frequently useful.</p>
+        </div>
       </div>`,
     examples: [
       {
@@ -312,7 +330,10 @@ export const lessons = [
         <h3>$\\ln$ and Continuous Growth</h3>
         <p>The continuous growth formula $A = Pe^{rt}$ can be solved for $t$ using $\\ln$:</p>
         <div class="formula-box">$$t = \\frac{\\ln(A/P)}{r}$$</div>
-        <div class="tip-box"><strong>Rule of 70:</strong> For continuous growth, doubling time $\\approx 70/r\\%$. (This comes from $\\ln 2 \\approx 0.693$.)</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p><strong>Rule of 70:</strong> For continuous growth, doubling time $\\approx 70/r\\%$. (This comes from $\\ln 2 \\approx 0.693$.)</p>
+        </div>
       </div>
       <div class="concept-card">
         <h3>Comparing $\\log$ and $\\ln$</h3>

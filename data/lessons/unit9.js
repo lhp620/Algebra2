@@ -11,7 +11,10 @@ export const lessons = [
           <li><strong>Explicit formula</strong>: gives $a_n$ directly in terms of $n$.</li>
           <li><strong>Recursive formula</strong>: defines $a_n$ in terms of previous terms.</li>
         </ul>
-        <div class="tip-box">Example: $a_n = 2n + 1$ gives $3, 5, 7, 9, \\ldots$ (explicit). The Fibonacci sequence $a_n = a_{n-1} + a_{n-2}$ is recursive.</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>Example: $a_n = 2n + 1$ gives $3, 5, 7, 9, \\ldots$ (explicit). The Fibonacci sequence $a_n = a_{n-1} + a_{n-2}$ is recursive.</p>
+        </div>
       </div>
       <div class="concept-card">
         <h3>Arithmetic Sequences</h3>
@@ -99,7 +102,10 @@ export const lessons = [
         <h3>Arithmetic Series</h3>
         <p>An <strong>arithmetic series</strong> is the sum of terms in an arithmetic sequence. $S_n$ denotes the sum of the first $n$ terms.</p>
         <div class="formula-box">$$S_n = \\frac{n}{2}(a_1 + a_n) = \\frac{n}{2}[2a_1 + (n-1)d]$$</div>
-        <div class="tip-box">The first formula is easiest when you know both the first and last terms. The second is useful when you only know $a_1$ and $d$.</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>The first formula is easiest when you know both the first and last terms. The second is useful when you only know $a_1$ and $d$.</p>
+        </div>
       </div>
       <div class="concept-card">
         <h3>Gauss's Trick</h3>
@@ -141,14 +147,20 @@ export const lessons = [
         <h3>Geometric Series (Finite)</h3>
         <p>The sum of the first $n$ terms of a geometric sequence:</p>
         <div class="formula-box">$$S_n = \\frac{a_1(1 - r^n)}{1 - r}, \\quad r \\ne 1$$</div>
-        <div class="tip-box">If $r = 1$, all terms are equal and $S_n = n \\cdot a_1$.</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>If $r = 1$, all terms are equal and $S_n = n \\cdot a_1$.</p>
+        </div>
       </div>
       <div class="concept-card">
         <h3>Infinite Geometric Series</h3>
         <p>If $|r| < 1$, the terms shrink toward 0 and the series <strong>converges</strong> to a finite sum:</p>
         <div class="formula-box">$$S = \\frac{a_1}{1 - r}, \\quad |r| < 1$$</div>
         <p>If $|r| \\ge 1$, the series <strong>diverges</strong> (the sum grows without bound).</p>
-        <div class="warning-box">You can only use the infinite sum formula when $|r| < 1$!</div>
+        <div class="warning-box">
+          <span class="warning-icon">⚠️</span>
+          <p>You can only use the infinite sum formula when $|r| < 1$!</p>
+        </div>
       </div>`,
     examples: [
       {
@@ -200,7 +212,10 @@ export const lessons = [
           <li>$\\displaystyle\\sum_{k=1}^{n} c\\,a_k = c\\sum_{k=1}^{n} a_k$</li>
           <li>$\\displaystyle\\sum_{k=1}^{n} (a_k + b_k) = \\sum_{k=1}^{n} a_k + \\sum_{k=1}^{n} b_k$</li>
         </ul>
-        <div class="tip-box">Any arithmetic or geometric series can be written in sigma notation.</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>Any arithmetic or geometric series can be written in sigma notation.</p>
+        </div>
       </div>`,
     examples: [
       {

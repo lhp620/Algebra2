@@ -12,13 +12,19 @@ export const lessons = [
           <li>The <strong>denominator</strong> is the root index.</li>
           <li>The <strong>numerator</strong> is the power.</li>
         </ul>
-        <div class="tip-box">$8^{2/3} = (\\sqrt[3]{8})^2 = 2^2 = 4$. Take the root first to keep numbers small!</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>$8^{2/3} = (\\sqrt[3]{8})^2 = 2^2 = 4$. Take the root first to keep numbers small!</p>
+        </div>
       </div>
       <div class="concept-card">
         <h3>Converting Between Forms</h3>
         <p>Radical form and exponential form are interchangeable:</p>
         <div class="formula-box">$$\\sqrt[n]{a^m} = a^{m/n}$$</div>
-        <div class="warning-box">$a^{m/n}$ requires $a \\ge 0$ when $n$ is even (to stay in the reals).</div>
+        <div class="warning-box">
+          <span class="warning-icon">⚠️</span>
+          <p>$a^{m/n}$ requires $a \\ge 0$ when $n$ is even (to stay in the reals).</p>
+        </div>
       </div>`,
     examples: [
       {
@@ -71,7 +77,10 @@ export const lessons = [
         <h3>Rationalizing the Denominator</h3>
         <p>For a square root in the denominator, multiply by $\\dfrac{\\sqrt{b}}{\\sqrt{b}}$.</p>
         <p>For a binomial denominator involving a radical, multiply by the <strong>conjugate</strong>.</p>
-        <div class="tip-box">$(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a - b$ — the conjugate eliminates the radical.</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>$(\\sqrt{a}+\\sqrt{b})(\\sqrt{a}-\\sqrt{b}) = a - b$ — the conjugate eliminates the radical.</p>
+        </div>
       </div>`,
     examples: [
       {
@@ -114,7 +123,10 @@ export const lessons = [
         <h3>Operations with Radicals</h3>
         <p><strong>Like radicals</strong> have the same index and radicand. Only like radicals can be combined by addition/subtraction.</p>
         <div class="formula-box">$$a\\sqrt[n]{x} \\pm b\\sqrt[n]{x} = (a \\pm b)\\sqrt[n]{x}$$</div>
-        <div class="tip-box">Simplify each radical first — hidden like radicals may appear!</div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>Simplify each radical first — hidden like radicals may appear!</p>
+        </div>
       </div>
       <div class="concept-card">
         <h3>Multiplying Radicals</h3>
@@ -129,7 +141,10 @@ export const lessons = [
           <li>Solve the resulting equation.</li>
           <li><strong>Check for extraneous solutions</strong> — squaring can introduce false answers!</li>
         </ol>
-        <div class="warning-box">Always substitute solutions back into the original equation.</div>
+        <div class="warning-box">
+          <span class="warning-icon">⚠️</span>
+          <p>Always substitute solutions back into the original equation.</p>
+        </div>
       </div>`,
     examples: [
       {
@@ -165,14 +180,20 @@ export const lessons = [
       <div class="concept-card">
         <h3>Function Operations</h3>
         <p>Given functions $f$ and $g$, we can build new functions:</p>
-        <div class="formula-box">$$(f+g)(x) = f(x)+g(x) \\quad (f-g)(x) = f(x)-g(x)$$
-$$(fg)(x) = f(x)\\cdot g(x) \\quad \\left(\\tfrac{f}{g}\\right)(x) = \\dfrac{f(x)}{g(x)},\\; g(x)\\ne 0$$</div>
+        <div class="formula-box">$$(f+g)(x) = f(x)+g(x) \\qquad (f-g)(x) = f(x)-g(x)$$</div>
+        <div class="formula-box">$$(fg)(x) = f(x)\\cdot g(x) \\qquad \\left(\\dfrac{f}{g}\\right)(x) = \\dfrac{f(x)}{g(x)},\\; g(x) \\neq 0$$</div>
       </div>
       <div class="concept-card">
         <h3>Composition of Functions</h3>
         <p>$(f \\circ g)(x) = f(g(x))$ — plug $g(x)$ into $f$.</p>
-        <div class="warning-box">Composition is <strong>not</strong> commutative: $f(g(x)) \\ne g(f(x))$ in general.</div>
-        <div class="tip-box">The domain of $f \\circ g$ requires $x$ to be in the domain of $g$, and $g(x)$ to be in the domain of $f$.</div>
+        <div class="warning-box">
+          <span class="warning-icon">⚠️</span>
+          <p>Composition is <strong>not</strong> commutative: $f(g(x)) \\neq g(f(x))$ in general.</p>
+        </div>
+        <div class="tip-box">
+          <span class="tip-icon">💡</span>
+          <p>The domain of $f \\circ g$ requires $x$ to be in the domain of $g$, and $g(x)$ to be in the domain of $f$.</p>
+        </div>
       </div>
       <div class="concept-card">
         <h3>Inverse Functions</h3>
