@@ -1,0 +1,11 @@
+{
+  "name": "algebra2-learning",
+  "version": "1.0.0",
+  "description": "Interactive Algebra 2 learning platform",
+  "scripts": {
+    "build:web": "node build-web.mjs"
+  },
+  "dependencies": {
+    "katex": "^0.16.45"
+  }
+}

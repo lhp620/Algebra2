@@ -33,9 +33,37 @@ An interactive Algebra 2 learning platform built as a fully static SPA for GitHu
 
 ## Getting Started
 
-### Run Locally
+### Single HTML File (Recommended)
 
-The site uses ES modules, so you need a local HTTP server (`index.html` won't work when opened directly from disk):
+A pre-built, self-contained `dist-web/index.html` is included in the repo. Just open it in any browser — no server, no install, works on Windows, macOS, and Linux.
+
+Math fonts load from jsDelivr CDN when online. Everything else (all JS, CSS, lesson content) is embedded in the file.
+
+### Rebuilding After Changes
+
+If you edit any source file and want to update `dist-web/index.html`:
+
+**Prerequisites:** [Node.js](https://nodejs.org/) (v18+)
+
+```bash
+# Install dependencies (only needed once)
+npm install
+
+# Rebuild the single HTML file
+npm run build:web
+```
+
+This regenerates `dist-web/index.html` — a fully self-contained bundle with all JavaScript, CSS, KaTeX, and all 11 units of lesson content inlined. Open it directly in any browser; no server required.
+
+**What `build-web.mjs` does:**
+- Strips ES module `import`/`export` syntax and concatenates all source files
+- Resolves dynamic `import()` calls by pre-loading all lesson units into a registry
+- Inlines KaTeX JS and patches its CSS to load fonts from the CDN
+- Wraps everything in a single `(async () => { ... })()` IIFE
+
+### Run Locally (Development)
+
+The source site uses ES modules, so you need a local HTTP server when developing (`index.html` won't work when opened directly from disk):
 
 ```bash
 # Python 3

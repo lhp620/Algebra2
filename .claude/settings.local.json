@@ -8,7 +8,18 @@
       "Bash(python3:*)",
       "Bash(git --version)",
       "Bash(gh --version)",
-      "Bash(gh auth:*)"
+      "Bash(gh auth:*)",
+      "Bash(npm --version)",
+      "Bash(npm install:*)",
+      "Bash(npx electron:*)",
+      "Bash(npm run:*)",
+      "Bash(node -e \"const r = require\\('./node_modules/rollup/package.json'\\); console.log\\('rollup:', r.version\\)\")",
+      "Bash(node -e \"try { require\\('@rollup/rollup-win32-x64-msvc'\\); console.log\\('found'\\) } catch\\(e\\) { console.log\\('not found:', e.message\\) }\")",
+      "Bash(node -e \"const r = require\\('./node_modules/rollup/package.json'\\); console.log\\(JSON.stringify\\(r.optionalDependencies, null, 2\\)\\)\")",
+      "Bash(npm root:*)",
+      "Read(//d/AI/Gemini/**)",
+      "Bash(node -e ':*)",
+      "Bash(node build-web.mjs)"
     ]
   }
 }
