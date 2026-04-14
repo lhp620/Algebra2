@@ -1184,6 +1184,18 @@ main {
   color: var(--color-text-muted);
 }
 
+.footer-link {
+  color: var(--color-text-muted);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+.footer-link:hover { color: var(--color-text-secondary); }
+.footer-link-kofi { color: var(--color-amber); }
+.footer-link-kofi:hover { color: var(--color-amber-light); }
+.footer-sep { margin: 0 8px; color: var(--color-border); }
+
+.nav-link-kofi { color: var(--color-amber) !important; }
+
 /* ============================================================
    ANIMATIONS
    ============================================================ */
@@ -1318,6 +1330,71 @@ main {
   display: flex;
   align-items: center;
   gap: 16px;
+}
+
+/* ── Auth button ── */
+.nav-auth { display: flex; align-items: center; }
+
+.btn-signin {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  background: rgba(124, 58, 237, 0.12);
+  border: 1px solid rgba(124, 58, 237, 0.35);
+  border-radius: 8px;
+  color: var(--color-violet-light);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--transition-fast), border-color var(--transition-fast);
+  white-space: nowrap;
+}
+.btn-signin:hover {
+  background: rgba(124, 58, 237, 0.22);
+  border-color: rgba(124, 58, 237, 0.55);
+}
+
+.nav-user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.nav-user-avatar {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 1px solid rgba(124, 58, 237, 0.4);
+  object-fit: cover;
+}
+.nav-user-name {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  max-width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.btn-signout {
+  padding: 4px 10px;
+  background: transparent;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  border-radius: 6px;
+  color: var(--color-text-muted);
+  font-size: 0.75rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color var(--transition-fast), color var(--transition-fast);
+  white-space: nowrap;
+}
+.btn-signout:hover {
+  border-color: rgba(244, 63, 94, 0.4);
+  color: var(--color-rose-light);
+}
+
+@media (max-width: 640px) {
+  .nav-auth { display: none; }
 }
 
 .mobile-menu-btn {
